@@ -1,0 +1,14 @@
+#ifndef _GAMESTATUS_H_
+#define _GAMESTATUS_H_
+
+enum class GAMESTATUS{
+  NOT_IN_GAME,
+  IN_GAME,
+  IN_CHECK,
+  BLACK_IS_MATED,
+  WHITE_IS_MATED,
+  STALEMATE,
+  PREPROCESSING
+};
+
+#endif
